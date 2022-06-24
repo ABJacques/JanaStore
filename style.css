@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:#ED0C1A;
+    --cor2:#F70C90;
+    --cor3:#D900E0;
+    --cor4:#AF0CF7;
+    --cor5:#6B0CED;
+
+    --font1: 'Times New Roman', Times, serif;
+    --font2:'Sacramento', cursive;
+    --font3: 'Pacifico', cursiva;
+}
+
+body {
+    background-image: linear-gradient(to bottom ,#ED0C1A,#6B0CED );
+}
+
+main {
+    height: 100%;
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+   
+
+}
+
+header {
+    display: flex;
+    
+    
+    font-family: var(--font2);    
+    align-items: center;
+    
+    
+}
+
+.menu li {
+    display: inline;
+}
+.logo {
+    width: 200px;
+}
+
+header > h1 {
+    color: white;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 5em;
+    
+}
+
+section {
+    height: 150px;
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 1.8em;
+    
+}
+footer {
+    background-color: black;
+    color: white;
+}
