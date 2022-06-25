@@ -27,6 +27,7 @@ header {
     align-items: center;
     background-color: black;
     color: white;
+    box-shadow: 8px 5px 12px black;
     
     
     
@@ -57,7 +58,7 @@ main {
     margin-bottom: 10px;
     padding: 10px;
     padding-bottom: 0px;
-
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.575);
     
 }
 
