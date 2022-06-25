@@ -29,6 +29,7 @@ header {
     color: white;
     
     
+    
 }
 
 
@@ -42,6 +43,11 @@ header {
     font-size: 2em;
 }
 
+.menu li a {
+    text-decoration: none;
+    color: #F70C90;
+}
+
 main {
     height: 100%;
     width: 80%;
@@ -50,6 +56,7 @@ main {
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 10px;
     padding: 10px;
+    padding-bottom: 0px;
 
     
 }
@@ -65,7 +72,9 @@ section {
 }
 
 #contato {
+    color: white;
     text-align: left;
+    
     height: 250px;
     background-image: url('imagens/CapaFaceJanaStoreOFICIAL.jpg');
     background-position: center;
@@ -73,6 +82,15 @@ section {
     background-size: cover;
 }
 
+#contato p {
+    
+    color: #F70C90;
+}
+
+#contato p a {
+    text-decoration: none;
+    color: #F70C90;
+}
 footer {
     background-color: black;
     color: white;
