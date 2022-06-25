@@ -74,8 +74,10 @@ section {
 #contato {
     color: white;
     text-align: left;
-    
-    height: 250px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-radius: 0px 0px 10px 10px;
+    height: 300px;
     background-image: url('imagens/CapaFaceJanaStoreOFICIAL.jpg');
     background-position: center;
     background-repeat: no-repeat;
