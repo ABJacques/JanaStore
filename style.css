@@ -25,6 +25,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    color: white;
     
     
 }
@@ -36,27 +38,39 @@ header {
 
 .menu li {
     display: inline;
-    padding-right: 10px;
+    padding-right: 20px;
     font-size: 2em;
 }
 
 main {
     height: 100%;
-    max-width: 800px;
+    width: 80%;
     margin: auto;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0px 0px 20px 20px;
     margin-bottom: 10px;
+    padding: 10px;
+
     
 }
 
 
 
 section {
-    height: 150px;
+    height: 200px;
     padding-left: 10px;
+    margin-bottom: 15px;
     text-align: center;
     font-size: 1.8em;
+}
+
+#contato {
+    text-align: left;
+    height: 250px;
+    background-image: url('imagens/CapaFaceJanaStoreOFICIAL.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
@@ -65,5 +79,5 @@ footer {
     font-size: 1.5em;
     text-align: center;
     
-    height: 50px;
+    height: 80px;
 }
